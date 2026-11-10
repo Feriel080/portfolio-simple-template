@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact</title>
+  <meta name="description"
+    content="The portfolio and CV of Alex Morrow, an independent designer and developer making useful, memorable things.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="site-frame">
+    <header class="site-header">
+      <a href="index.html" class="wordmark"><span class="wordmark-mark">LO</span><span>Lorin<br>Orion</span></a>
+      <div class="header-meta">Portfolio</div>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu <span
+          aria-hidden="true">↗</span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation"><a href="index.html">Home</a><a
+          href="work.html">Selected work</a><a href="about.html">About</a><a href="contact.html"
+          class="active">Contact</a></nav>
+    </header>
+    <main class="page-pad inner-page contact-page">
+      <div class="contact-intro">
+        <div class="page-intro">
+          <div class="section-label"><span class="label-dot"></span>Contact</div>
+          <h1>Let's make<br><em>something useful.</em></h1>
+          <p>Have a project, a question, or a good link? I'd like to hear about it.</p>
+        </div>
+        <div class="stamp rotate-stamp">No<br>rush<br>though</div>
+      </div>
+      <div class="contact-layout">
+        <div class="contact-details">
+          <span class="eyebrow">Direct line</span>
+          <a href="mailto:sumoilbut@usako.net" class="big-link">lorinorion@gmail.com</a>
+          <span class="eyebrow">Elsewhere</span>
+          <a href="#linkedin">LinkedIn ↗</a>
+          <span class="eyebrow">Based in</span>
+          <p>London, UK<br>Available worldwide</p>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div id="form-fields">
+            <label for="name">Your name <input id="name" name="name" required placeholder="Jane Smith"></label>
+            <label for="email">Email address <input id="email" name="email" type="email" required
+                placeholder="jane@example.com"></label>
+            <label for="message">A few words <textarea id="message" name="message" required
+                placeholder="Tell me about the good thing..." rows="5"></textarea></label>
+            <button class="ink-button" type="submit">Send it on <span>↗</span></button>
+          </div>
+          <div class="success-note" id="success-note" hidden>
+            <span>✓</span>
+            <h2>Message received.</h2>
+            <p>Thanks for reaching out. I'll be in touch soon.</p>
+            <button type="button" class="text-link" id="send-another">Send another ↗</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <span>© <span id="year">2026</span> Lorin Orion</span>
+      <span>Available for selected commissions</span>
+      <span>Remote</span>
+    </footer>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
